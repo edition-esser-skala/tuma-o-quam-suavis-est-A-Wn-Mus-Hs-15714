@@ -1,12 +1,15 @@
 \version "2.24.0"
 
 #(define option-movement-title-format "title")
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
-\include "ees_articulate.ly"
 
 
 tempoOQuam = \tempoMarkup "Adagio"
+tempoOSalutaris = \tempoMarkup "Larghetto"
+tempoBella = \tempoMarkup "Allegro assai"
+tempoDaRobur = \tempoMarkup "Larghetto"
+tempoAlleluia = \tempoMarkup "Allegro"
 
 
 \include "notes/cnto.ly"

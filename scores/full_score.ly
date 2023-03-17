@@ -6,7 +6,7 @@
 \book {
   \bookpart {
     \section "O quam suavis est"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score {
       <<
@@ -81,7 +81,7 @@
         \new FiguredBass { \OQuamBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 55 } % 65 – 100 – 65 – 110
     }
   }
 }
